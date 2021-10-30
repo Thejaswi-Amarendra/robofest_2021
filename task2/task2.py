@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-im = cv2.imread("task2.jfif", 1)
+im = cv2.imread("task2.png", 1)
 np.shape(im)
 y = np.shape(im)[0]//4
 x = np.shape(im)[1]//4
